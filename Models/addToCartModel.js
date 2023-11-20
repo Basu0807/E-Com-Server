@@ -1,7 +1,7 @@
 const mongoose =require('mongoose')
 
 const CartSchema = mongoose.Schema({
-    
+
             heading:{
                 type:String,
                 // required:[true,'please enter product heading']

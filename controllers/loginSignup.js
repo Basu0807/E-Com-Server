@@ -50,5 +50,9 @@ const loginController = async (req,res)=>{
 }
 
 
+const ProfileController=(req,res)=>{
+res.send('Welcome')
+}
 
-module.exports={registerController,loginController}
+
+module.exports={registerController,loginController,ProfileController}
