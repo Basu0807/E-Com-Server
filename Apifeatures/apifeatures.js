@@ -5,7 +5,7 @@ class ApiFeatures{
     }
     search(){
         const keyword=this.queryStr.keyword?{
-        Brand:{
+        heading:{
             $regex:this.queryStr.keyword,
             $options:"i"
         }
