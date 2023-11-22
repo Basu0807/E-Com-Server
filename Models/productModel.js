@@ -21,7 +21,7 @@ type:Number
         // required:[true,'please enter product image']
     },
     price:{
-        type:String,
+        type:Number,
         // required:[true,'please enter product price']
     },
     description:{
@@ -30,6 +30,10 @@ type:Number
     },
     category:{
         type:String,
+        // required:[true,'please enter product category']
+    },
+    quantity:{
+        type:Number,
         // required:[true,'please enter product category']
     },
   
