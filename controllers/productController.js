@@ -1,19 +1,19 @@
 const ApiFeatures = require('../Apifeatures/apifeatures')
-const { dummydata } = require('../Data/data')
+const dummydata  = require('../Data/data')
 const Product =require('../Models/productModel')
 
 
-const AddProductController= async(req,res,next)=>{
+const AddProductController= async(req,res)=>{
     const NewProduct =dummydata
     
    const existedProduct =await Product.findOne({"heading":`${NewProduct.heading}`})
 if(existedProduct){
         return res.send({msg:"Products Already Exist"})
      }
-     else{
+     
         const product = await Product.create(NewProduct)
-        return res.send({msg:"products added",data:product,})
-     }
+        return res.send({msg:"products added",data:product})
+     
 }
 const AllProductController =async(req,res)=>{
     const product =await Product.find({})
@@ -51,4 +51,9 @@ const SpecificProductController= async(req,res)=>{
         
         }
 
-module.exports={AllProductController,SearchController,AddProductController,SpecificProductController,DeleteController}
+        const DeleteAll =async(req,res)=>{
+            await Product.deleteMany({})
+        res.send({msg:"Database clear"})
+        }
+
+module.exports={AllProductController,SearchController,AddProductController,SpecificProductController,DeleteController,DeleteAll}
