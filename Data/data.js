@@ -575,7 +575,7 @@ const dummydata = [
                           Brand:"	URBN",
                           Model:"Power Bank",
                           heading:"URBN 65W Laptop Power Bank with 100W Type C to C Premium Charging Cable with E-Marker Chip for Macbooks, iPhones, Smartphones and Other Supported Devices",
-                          price:"	4,499 ",
+                          price:"4,499 ",
                           image:"https://m.media-amazon.com/images/I/61fBkEvFmHL._SX679_.jpg",
                           description:"roduct 1: Proudly Made In India; It will charge a 3000mAh phone battery up to 7.2 times & It will charge a 4000mAh phone battery up to 5.4 times Product 1: Output: 2 USB Ports + 1 Type-C 65W Fast Charging PProduct 1: Included in the box: 1 Powerbank, 1 Type-C Fast Charging Cable (18W Compatible), User Manual & Warranty Card, ||Charger not included||",
                          category:"accessories"
