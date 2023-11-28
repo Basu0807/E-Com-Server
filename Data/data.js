@@ -35,13 +35,12 @@ const dummydata = [
     }  ,
     {
         id:4,
-        heading:"realme 11 5G (Glory Gold, 256 GB) ",
+        heading:"realme 11 5G (Glory Gold, 256 GB) 8 GB RAM | 256 GB ROM | Expandable Upto 2 TB",
         Brand:"realme",
         Model:"realme 11 5G",
         price:19999,
         image:"https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/j/d/-original-imagtqqddnkayg4x.jpeg?q=70",
-        description:"8 GB RAM | 256 GB ROM | Expandable Upto 2 TB",
-        heading:"Avail yourself this 5G smartphone that offers a host of interesting features. The powerful MediaTek Dimensity 6100+ 5G chipset delivers a smooth performance. Click beautiful portraits with the 64 MP AI camera that offers exciting features like Street Photography Mode 4.0, Super Nightscape, 2x In-sensor zoom, and more. Equipped by a 5000 mAh long-lasting battery, this phone runs for a longer duration and can be recharged quickly with the 33 W SUPERVOOC charger available along with this device. Boasting a S-curve structure and 7.89 mm ultra-slim body, this phone is sure to turn many heads. The 120 Hz refresh rate and 17.07 cm (6.72) Dynamic smooth display offers you an immersive entertainment experience. With up to 8 GB RAM + 8 GB Dynamic RAM and 128 GB internal memory, this phone is quick to respond and offers a mammoth storage space. ",
+        description:"Avail yourself this 5G smartphone that offers a host of interesting features. The powerful MediaTek Dimensity 6100+ 5G chipset delivers a smooth performance. Click beautiful portraits with the 64 MP AI camera that offers exciting features like Street Photography Mode 4.0, Super Nightscape, 2x In-sensor zoom, and more. Equipped by a 5000 mAh long-lasting battery, this phone runs for a longer duration and can be recharged quickly with the 33 W SUPERVOOC charger available along with this device. Boasting a S-curve structure and 7.89 mm ultra-slim body, this phone is sure to turn many heads. The 120 Hz refresh rate and 17.07 cm (6.72) Dynamic smooth display offers you an immersive entertainment experience. With up to 8 GB RAM + 8 GB Dynamic RAM and 128 GB internal memory, this phone is quick to respond and offers a mammoth storage space. ",
         category:"mobile",
         quantity:1
 
@@ -110,7 +109,7 @@ const dummydata = [
         id:10,
         heading:"VIVO V27 5G (Magic Blue, 128 GB) (8 GB RAM)",
         Model:"V27 5G",
-        Brand:"vivo",
+        Brand:"Vivo",
         price:29270,
         image:"https://m.media-amazon.com/images/I/41Ivm0JRrNL._SX300_SY300_QL70_FMwebp_.jpg",
         description:"The Vivo V27 5G smartphone features a wide 3D curved display so that you can experience immersive viewing. It has a colour-changing glass which changes the colour of your smartphone as light changes. Its 50 MP camera enables you with the power to capture stunning images even at night. The Vivo V27 5G smartphone is the perfect phone for you to capture the bright Indian weddings in its pure form. The MediaTek Dimensity 7200 processor allows you to experience its fast processing speed. Thanks to its 66 W Flash Charging you can charge your phone up to 50% in about 18 minutes while the phone is not in use.",
@@ -170,7 +169,7 @@ const dummydata = [
         id:15,
         heading:"Vivo Y02t (Sunset Gold, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
         Model:"	Y02t",
-        Brand:"vivo",
+        Brand:"Vivo",
         price:8999,
         image:"https://m.media-amazon.com/images/I/31Exlee4ifL._SX300_SY300_QL70_FMwebp_.jpg",
         description:"The vivo Y02t smartphone comes with 8MP rear camera, 5MP Selfie Camera, Helio P35 Processor, 4GB RAM, 64GB ROM, 10W fast charging, 16.53cm 6.51 with HD+ LCD (IPS) Display, 5000mAh battery (C-Type) and much more.",
@@ -313,7 +312,7 @@ const dummydata = [
     {
         id:27,
         heading:"Acer Aspire 3 Laptop AMD Ryzen™ 3 7320U Quad-Core Processor (8 GB/512 GB SSD/Windows 11 Home) A315-24P (39.6 cm) 15.6 Inch Full HD Display",
-        Model:"	Aspire 3 15",
+        Model:"Aspire 3 15",
         Brand:"Acer",
         price:27990,
         image:"https://m.media-amazon.com/images/I/41rwlkAbySL._SX300_SY300_QL70_FMwebp_.jpg",
@@ -524,7 +523,7 @@ const dummydata = [
            },
            {
                id:44,
-               Brand:"	URBN",
+               Brand:"URBN",
                Model:"Power Bank",
                heading:"URBN 20000 mAh Premium Nano Power Bank | 22.5W Super Fast Charging | Smallest Power Bank | Dual Type C Power Delivery (PD) Output + 1 USB Output for Quick Charge | Two-Way Fast Charge (Camo)",
                price:2299,
@@ -535,7 +534,7 @@ const dummydata = [
                   },
                   {
                    id:45,
-                   Brand:"	Mi",
+                   Brand:"Mi",
                    Model:"Power Bank",
                    heading:"MI Power Bank 3i 20000mAh Lithium Polymer 18W Fast Power Delivery Charging | Input- Type C | Micro USB| Triple Output | Sandstone Black",
                    price:1999,
@@ -546,7 +545,7 @@ const dummydata = [
                       },
                       {
                        id:46,
-                       Brand:"	Mi",
+                       Brand:"Mi",
                        Model:"charger",
                        heading:"Mi 5V Charger|10W Wall Charger with USB Cable|Compatible for Mobile, Headphones, TWS, Game Console, Power Banks|Fast Charging + Quick Data Transfer+BIS Certified|(Adapter+USB to Micro USB Cable)-Black",
                        price:449,
@@ -557,7 +556,7 @@ const dummydata = [
                           },
                           {
                            id:47,
-                           Brand:"iPhone,",
+                           Brand:"Apple",
                            Model:"charger",
                            heading:"Duracell 65W Fast Car Charger Adapter with Dual Output. Quick Charge, Type C PD 45W & Qualcomm Certified 3.0 20W, Compatible for iPhone, All Smartphones, Tablets & More (Copper & Black)",
                            price:1385,
@@ -568,7 +567,7 @@ const dummydata = [
                               },
                             {
                                id:48,
-                               Brand:"	AILKIN",
+                               Brand:"Apple",
                                Model:"charger",
                                heading:"20W PD Charger for iPhone Original 20W PD Fast Type C Wall Charger with Charging Cable Compatible with iPhone 15/15 Plus Pro Max/14 Pro Max/14 Mini/13/12 Max/Xs Max/XR/X/8Plus,iPad (Adapter + Cable)",
                   price:1120,
@@ -579,7 +578,7 @@ const dummydata = [
                      },
                      {
                       id:49,
-                      Brand:"	KARWAN",
+                      Brand:"KARWAN",
                       Model:"charger",
                       heading:"Karwan® 15W Qi-Certified Fast Wireless Charging Pad | Compatible with iPhone 13/13 Pro/13 Mini/13 ProMax/12/11, Samsung Galaxy S21/S20/Note 10/Edge Note 20Ultra/S10, AirPods Pro-Black",
                       price:799,
@@ -589,7 +588,7 @@ const dummydata = [
                       quantity:1
                          }, {
                           id:50,
-                          Brand:"	URBN",
+                          Brand:"URBN",
                           Model:"Power Bank",
                           heading:"URBN 65W Laptop Power Bank with 100W Type C to C Premium Charging Cable with E-Marker Chip for Macbooks, iPhones, Smartphones and Other Supported Devices",
                           price:4499,
@@ -602,7 +601,7 @@ const dummydata = [
                    id:51,
                    heading:"OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 Mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life (Magico Black)",
                    Model:"BWZ-2",
-                   Brand:"	OnePlus",
+                   Brand:"OnePlus",
                    image:"https://m.media-amazon.com/images/I/51UhwaQXCpL._SX679_.jpg",
                    price:1599,
                    description:"A quick 10-minute charge delivers up to 20 hours of immersive audio playback.The flagship-level battery life delivers up to 30 hours of non-stop music on a single charge. A large 12.4 mm bass driver delivers uncompromisingly deep bass for powerful beats. Experience incredibly rich audio detail at every frequency with the titanium coating dome",
@@ -617,7 +616,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/61PRAZMNyUL._SX679_.jpg",
                    price:599,
                    description:"In-Ear True Wireless Stereo Earphones with Hi-Fi Audio & High Bass; Built-in Mic in Each Earbud for Stereo Calls; Ergonomic, Lightweight, Secure-fit & IPX4 Water Resistant Earbuds; Made in India On-the earbuds multi-function buttons allow calls & music control for a hands-free experience. Inline Remote : NoBluetooth 5.0; Fast Pairing; 10m Wireless Range; 4 Hours Playback Time (Earbuds) & 8 Hours Extended Playtime using Charging Case; 3.5 Hours Talk-time; 1.2 Hour Charge Time",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
@@ -629,7 +628,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/31mCcX7rQlS._SX300_SY300_QL70_FMwebp_.jpg",
                    price:699,
                    description:"Made in India : From design to manufacturing, Mivi DuoPods A25 is proudly made in India. It is built locally to compete globally..Note : If the size of the earbud tips does not match the size of your ear canals or the headset is not worn properly in your ears, you may not obtain the correct sound qualities or call performance. Change the earbud tips to ones that fit more snugly in your ears",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
@@ -641,7 +640,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/41Mq61N0xmL._SX300_SY300_QL70_FMwebp_.jpg",
                    price:189,
                    description:"Stylish, metallic look, in-ear stereo audio quality wired headphones with an in-line mic for hands-free phone calls.Ergonomic in-ear design allows passive noise cancelation and outstanding sound performance.Lightweight metal earphones come with 10mm dynamic drivers and neodymium magnets for full-range sound.",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
@@ -653,7 +652,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/41dO3M99-PS._SY300_SX300_QL70_FMwebp_.jpg",
                    price:199,
                    description:"[Designed for AirPods Pro] Only for Apple AirPods Pro (2019), not compatible with AirPods 1st and AirPods 2st. [Premium Skin-Friendly Material] Made of premium grade silicone, which is different from other materials, not easy to age and break, the protection will be better and it will last longer.[Thickened Silicone Layer] 3.0mm thickness, thicker and stronger than other silicone protective cases, 360-degree full protection body to prevent scratch and fall protection.",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  {
@@ -664,7 +663,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/41machJsMZL._SX300_SY300_QL70_FMwebp_.jpg",
                    price:7989,
                    description:"Bluetooth 5.0 technology for effortlessly reliable connectivity including AAC and AptX Low Latency codec support Active noise cancellation (ANC) for uninterrupted listening pleasure 30-hour battery life with USB-C fast charging Intuitive controls including Virtual Assistant button for Alexa, Siri and Google Assistant",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
@@ -676,7 +675,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/31VnhITYb+L._SY300_SX300_.jpg",
                    price:1490,
                    description:"Uncompressed and balanced Sennheiser sound for a unique listening experience Call & music management via smart remote 3 ear tip sizes for excellent fit and perfect ambient noise isolation Sound pressure level (SPL): 119 dB SPL @ 1 kHz, 1V RMS",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
@@ -688,7 +687,7 @@ const dummydata = [
                    image:"https://m.media-amazon.com/images/I/41lNHVDXPBL._SX300_SY300_QL70_FMwebp_.jpg",
                    price:24989,
                    description:"Maximum audio resolution with Sennheiser Signature Sound: Enjoy premium music quality all-day long thanks to the headphone's audiophile-inspired 42mm transducer system and aptX Adaptive.Personalized sound via the Sennheiser Smart Control App: Adjust the sound to your individual listening preferences via the integrated equalizer, presets and sound modes - for a unique sound experience.",
-                   category:"Headphones",
+                   category:"accessories",
                    quantity:1
                  },
                  
