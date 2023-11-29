@@ -21,7 +21,7 @@ app.use('/store',productRoute)
 app.use('/user',UserRoute)
 app.use('/order',OrderRoute)
 
-app.post("/check/checkoutdata",async(req,res)=>{
+app.post("/checkout",async(req,res)=>{
   const {products}=req.body
   console.log(products)
   const lineItems =products.map((product)=>({
