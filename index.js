@@ -38,7 +38,7 @@ app.post("/check/checkoutdata",async(req,res)=>{
       payment_method_types:["card"],
        line_items:lineItems,
       mode:"payment",
-      success_url:"https://dainty-pothos-8d469f.netlify.app//success",
+      success_url:"https://dainty-pothos-8d469f.netlify.app/success",
       cancel_url:"https://dainty-pothos-8d469f.netlify.app/cancel",
   })
   res.json({id:session.id})
