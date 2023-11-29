@@ -39,7 +39,7 @@ app.post("/checkout",async(req,res)=>{
        line_items:lineItems,
       mode:"payment",
       success_url:"https://dainty-pothos-8d469f.netlify.app/success",
-      cancel_url:"https://dainty-pothos-8d469f.netlify.app/cancel",
+      cancel_url:"https://dainty-pothos-8d469f.netlify.app/AddToCart",
   })
   res.json({id:session.id})
   })
